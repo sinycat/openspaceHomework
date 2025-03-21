@@ -7,3 +7,6 @@
 [submodule "0319Stake2/lib/openzeppelin-contracts"]
 	path = 0319Stake2/lib/openzeppelin-contracts
 	url = https://github.com/OpenZeppelin/openzeppelin-contracts
+[submodule "0321MevNFT/lib/forge-std"]
+	path = 0321MevNFT/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
