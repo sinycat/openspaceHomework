@@ -16,3 +16,6 @@
 [submodule "0325leverTrading/lib/forge-std"]
 	path = 0325leverTrading/lib/forge-std
 	url = https://github.com/foundry-rs/forge-std
+[submodule "0325leverTrading/lib/openzeppelin-contracts"]
+	path = 0325leverTrading/lib/openzeppelin-contracts
+	url = https://github.com/OpenZeppelin/openzeppelin-contracts
