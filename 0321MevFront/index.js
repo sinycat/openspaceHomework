@@ -5,6 +5,8 @@ import dotenv from 'dotenv';
 // 导入 ethers v5
 import { ethers } from 'ethers';
 
+
+//  已实现监听pending交易,购买NFT,用的flashbots原生节点,模拟交易成功,但不能上链
 // 加载环境变量
 dotenv.config();
 
