@@ -6,8 +6,6 @@ import {LoanMarketplace} from "../src/LoanMarketplace.sol";
 import {ERC20} from "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "@chainlink/contracts/src/v0.8/shared/interfaces/AggregatorV3Interface.sol";
 
-// import {AggregatorV3Interface} from "@chainlink/contracts/src/interfaces/AggregatorV3Interface.sol";
-
 contract MockToken is ERC20 {
     constructor(string memory tokenName, string memory tokenSymbol, uint8 _decimals) ERC20(tokenName, tokenSymbol) {
         _mint(msg.sender, 1000000 * 10 ** _decimals);
