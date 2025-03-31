@@ -7,7 +7,7 @@ optimizer = true
 optimizer_runs = 200
 
 [rpc_endpoints]
-sepolia = "https://sepolia.infura.io/v3/f389c32494994684b4e1769a4ea8dadb"  # 替换为你的 RPC URL
+
 
 [etherscan]
-sepolia = { key = "6KH9MYNXIKUS1Y3BINDBPF65ZRSI2MX4DJ" }  # 用于验证合约，可选
+
