@@ -37,3 +37,6 @@
 [submodule "0224TwoThirdSignWallet/lib/forge-std"]
 	path = 0224TwoThirdSignWallet/lib/forge-std
 	url = https://github.com/foundry-rs/forge-std
+[submodule "0224TwoThirdSignWallet/lib/openzeppelin-contracts"]
+	path = 0224TwoThirdSignWallet/lib/openzeppelin-contracts
+	url = https://github.com/OpenZeppelin/openzeppelin-contracts
