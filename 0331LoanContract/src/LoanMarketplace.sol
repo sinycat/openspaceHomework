@@ -8,7 +8,7 @@ import "@openzeppelin/contracts/utils/ReentrancyGuard.sol";
 import "@chainlink/contracts/src/v0.8/shared/interfaces/AggregatorV3Interface.sol";
 
 /**
- * @title 贷款市场平台
+ * @title 固定利率存款贷款市场平台
  * @dev 实现ETH和多种代币的存款和贷款功能，采用固定利率和抵押贷款
  */
 contract LoanMarketplace is Ownable, ReentrancyGuard {
